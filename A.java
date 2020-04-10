@@ -9,6 +9,8 @@ public class A {
             System.out.println("num = " + num);
         } catch (Exception e) {
             e.printStackTrace();
+        }finally{
+
         }
     }
     public int divide(int x, int y) throws ArithmeticException {
